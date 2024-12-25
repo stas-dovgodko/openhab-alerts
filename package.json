@@ -1,6 +1,6 @@
 {
   "name": "openhab-alerts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "openhab alerts js automation lib",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/stas-dovgodko/openhab-alerts/issues"
   },
-  "homepage": "https://github.com/stas-dovgodko/openhab-alerts#readme"
+  "homepage": "https://github.com/stas-dovgodko/openhab-alerts#readme",
+  "dependencies": {
+    "openhab": "^5.8.1",
+    "openhab-history": "^1.0.0"
+  }
 }
